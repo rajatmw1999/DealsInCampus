@@ -1,5 +1,5 @@
-html,
-body {
+
+.homehero_navbar_hira_body{
 	height: 100%;
 	font-family: "Montserrat", sans-serif;
 	-webkit-font-smoothing: antialiased;
@@ -41,13 +41,12 @@ body {
 	outline: none;
 }
 
-ul,
-ol {
+.navbar_hira_ul{
 	padding: 0;
 	margin: 0;
 }
 
-.set-bg {
+.homehero_hira_set-bg {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
@@ -73,36 +72,36 @@ ol {
 	padding: 30px 0 27px;
 }
 
-.navbar_hira_header__menu ul li {
+.navbar_hira_header__menu .navbar_hira_ul li {
 	list-style: none;
 	display: inline-block;
 	margin-right: 40px;
 	position: relative;
 }
 
-.navbar_hira_header__menu ul li.active a:after {
+.navbar_hira_header__menu .navbar_hira_ul li.active a:after {
 	-webkit-transform: scale(1);
 	-ms-transform: scale(1);
 	transform: scale(1);
 }
 
-.navbar_hira_header__menu ul li:hover a:after {
+.navbar_hira_header__menu .navbar_hira_ul li:hover a:after {
 	-webkit-transform: scale(1);
 	-ms-transform: scale(1);
 	transform: scale(1);
 }
 
-.navbar_hira_header__menu ul li:hover .dropdown {
+.navbar_hira_header__menu .navbar_hira_ul li:hover .navbar_hira_dropdown {
 	top: 27px;
 	opacity: 1;
 	visibility: visible;
 }
 
-.navbar_hira_header__menu ul li:last-child {
+.navbar_hira_header__menu .navbar_hira_ul li:last-child {
 	margin-right: 0;
 }
 
-.navbar_hira_header__menu ul li .dropdown {
+.navbar_hira_header__menu .navbar_hira_ul li .navbar_hira_dropdown {
 	position: absolute;
 	left: 0;
 	top: 56px;
@@ -118,12 +117,12 @@ ol {
 	transition: all, 0.3s;
 }
 
-.navbar_hira_header__menu ul li .dropdown li {
+.navbar_hira_header__menu .navbar_hira_ul li .navbar_hira_dropdown li {
 	display: block;
 	margin-right: 0;
 }
 
-.navbar_hira_header__menu ul li .dropdown li a {
+.navbar_hira_header__menu .navbar_hira_ul li .navbar_hira_dropdown li .navbar_hira_a {
 	font-size: 14px;
 	color: #ffffff;
 	font-weight: 400;
@@ -131,11 +130,11 @@ ol {
 	text-transform: capitalize;
 }
 
-.navbar_hira_header__menu ul li .dropdown li a:after {
+.navbar_hira_header__menu .navbar_hira_ul li .navbar_hira_dropdown li .navbar_hira_a:after {
 	display: none;
 }
 
-.navbar_hira_header__menu ul li a {
+.navbar_hira_header__menu .navbar_hira_ul li .navbar_hira_a {
 	font-size: 15px;
 	text-transform: uppercase;
 	color: #111111;
@@ -145,7 +144,7 @@ ol {
 	position: relative;
 }
 
-.navbar_hira_header__menu ul li a:after {
+.navbar_hira_header__menu .navbar_hira_ul li a:after {
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -211,13 +210,13 @@ ol {
 	margin-right: 0;
 }
 
-.navbar_hira_header__right__widget li a {
+.navbar_hira_header__right__widget li .navbar_hira_a {
 	font-size: 18px;
 	color: #111111;
 	position: relative;
 }
 
-.navbar_hira_header__right__widget li a .tip {
+.navbar_hira_header__right__widget li .navbar_hira_a .tip {
 	position: absolute;
 	right: -12px;
 	top: -11px;
@@ -260,35 +259,35 @@ ol {
 	margin-right: 10px;
 }
 
-.homehero_hira_categories__item.homehero_hira_categories__large__item {
+.homehero_hira_categories__large__item {
 	height: 638px;
 	padding-left: 70px;
 }
 
-.homehero_hira_categories__item.homehero_hira_categories__large__item .homehero_hira_categories__text {
+.homehero_hira_categories__large__item .homehero_hira_categories__text {
 	max-width: 480px;
 }
 
-.homehero_hira_categories__item.homehero_hira_categories__large__item .homehero_hira_categories__text p {
+.homehero_hira_categories__large__item .homehero_hira_categories__text .homehero_hira_p {
 	margin-bottom: 15px;
 }
 
-.homehero_hira_categories__text h1 {
+.homehero_hira_categories__text .homehero_hira_h1 {
 	font-family: "Cookie", cursive;
 	color: #111111;
 	margin-bottom: 5px;
 }
 
-.homehero_hira_categories__text h4 {
+.homehero_hira_categories__text .homehero_hira_h4 {
 	color: #111111;
 	font-weight: 700;
 }
 
-.homehero_hira_categories__text p {
+.homehero_hira_categories__text .homehero_hira_p {
 	margin-bottom: 10px;
 }
 
-.homehero_hira_categories__text a {
+.homehero_hira_categories__text .navbar_hira_a {
 	font-size: 14px;
 	color: #111111;
 	text-transform: uppercase;
@@ -298,7 +297,7 @@ ol {
 	display: inline-block;
 }
 
-.homehero_hira_categories__text a:after {
+.homehero_hira_categories__text .navbar_hira_a:after {
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -315,7 +314,7 @@ ol {
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
-	.navbar_hira_header__menu ul li {
+	.navbar_hira_header__menu .navbar_hira_ul li {
 		margin-right: 20px;
 	}
 	.navbar_hira_header {
@@ -323,16 +322,11 @@ ol {
 	}
 }
 
-@media only screen and (min-width: 1200px) {
-	.container {
-		max-width: 1170px;
-	}
-}
 
 /* Medium Device = 1200px */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-	.navbar_hira_header__menu ul li {
+	.navbar_hira_header__menu .navbar_hira_ul li {
 		margin-right: 20px;
 	}
 	.navbar_hira_header__right__auth {
