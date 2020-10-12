@@ -1,0 +1,99 @@
+.home_bestproductoverview_hira_h4,
+.home_bestproductoverview_hira_h6 {
+	margin: 0;
+	color: #111111;
+	font-weight: 400;
+	font-family: "Montserrat", sans-serif;
+}
+
+
+.home_bestproductoverview_hira_section-title {
+	margin-bottom: 45px;
+}
+
+.home_bestproductoverview_hira_section-title .home_bestproductoverview_hira_h4 {
+	color: #111111;
+	font-weight: 600;
+	text-transform: uppercase;
+	position: relative;
+	display: inline-block;
+}
+
+.home_bestproductoverview_hira_section-title .home_bestproductoverview_hira_h4:after {
+	position: absolute;
+	left: 0;
+	bottom: -4px;
+	height: 2px;
+	width: 70px;
+	background: #ca1515;
+	content: "";
+}
+
+
+.home_bestproductoverview_hira_trend {
+	font-family: "Montserrat", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+
+.home_bestproductoverview_hira_trend__content .home_bestproductoverview_hira_section-title .home_bestproductoverview_hira_h4 {
+	font-size: 20px;
+}
+
+.home_bestproductoverview_hira_trend__content .home_bestproductoverview_hira_section-title .home_bestproductoverview_hira_h4:after {
+	bottom: -6px;
+}
+
+.home_bestproductoverview_hira_trend__item {
+	overflow: hidden;
+	margin-bottom: 35px;
+}
+
+.home_bestproductoverview_hira_trend__item__pic {
+	float: left;
+	margin-right: 25px;
+}
+
+.home_bestproductoverview_hira_trend__item__text {
+	overflow: hidden;
+}
+
+.home_bestproductoverview_hira_trend__item__text .home_bestproductoverview_hira_h6 {
+	font-size: 14px;
+	color: #111111;
+	margin-bottom: 5px;
+}
+
+.home_bestproductoverview_hira_trend__item__text .home_bestproductoverview_hira_rating {
+	line-height: 18px;
+	margin-bottom: 6px;
+}
+
+.home_bestproductoverview_hira_trend__item__text .home_bestproductoverview_hira_rating .home_bestproductoverview_hira_i {
+	font-size: 10px;
+	color: #e3c01c;
+	margin-right: -4px;
+}
+
+.home_bestproductoverview_hira_trend__item__text .home_bestproductoverview_hira_rating .home_bestproductoverview_hira_i:last-child {
+	margin-right: 0;
+}
+
+.home_bestproductoverview_hira_trend__item__text .home_bestproductoverview_hira_product__price {
+	color: #111111;
+	font-weight: 600;
+}
+
+.home_bestproductoverview_hira_trend__item__text .home_bestproductoverview_hira_product__price span {
+	font-size: 14px;
+	color: #b1b0b0;
+	text-decoration: line-through;
+	margin-left: 4px;
+}
+
+@media only screen and (min-width: 1200px) {
+	.home_bestproductoverview_container {
+		max-width: 1170px;
+	}
+}
